@@ -9,8 +9,9 @@ import Foundation
 
 class Year {
     let value: Int
+    
     func isLeapYear() -> Bool {
-        false
+        ((value % 4) != 0) ? true : false
     }
     
     init(value: Int){

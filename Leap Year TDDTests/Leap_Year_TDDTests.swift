@@ -15,4 +15,9 @@ final class Leap_Year_TDDTests: XCTestCase {
         let sample = Year(value: 2077)
         XCTAssertFalse(sample.isLeapYear())
     }
+    
+    func testGivenYearIs2024WhenAskedIfLeapYearThenReturnsTrue() {
+        let sample = Year(value: 2024)
+        XCTAssertTrue(sample.isLeapYear())
+    }
 }
