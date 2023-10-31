@@ -14,6 +14,7 @@
 		4F5F9F4C2AF15E3A0001FE4B /* Leap_Year_TDDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F9F4B2AF15E3A0001FE4B /* Leap_Year_TDDTests.swift */; };
 		4F5F9F562AF15E3A0001FE4B /* Leap_Year_TDDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F9F552AF15E3A0001FE4B /* Leap_Year_TDDUITests.swift */; };
 		4F5F9F582AF15E3A0001FE4B /* Leap_Year_TDDUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F9F572AF15E3A0001FE4B /* Leap_Year_TDDUITestsLaunchTests.swift */; };
+		4F5F9F662AF15E940001FE4B /* Year.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F5F9F652AF15E940001FE4B /* Year.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		4F5F9F512AF15E3A0001FE4B /* Leap Year TDDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leap Year TDDUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F5F9F552AF15E3A0001FE4B /* Leap_Year_TDDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_Year_TDDUITests.swift; sourceTree = "<group>"; };
 		4F5F9F572AF15E3A0001FE4B /* Leap_Year_TDDUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_Year_TDDUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4F5F9F652AF15E940001FE4B /* Year.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Year.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 		4F5F9F2E2AF15E380001FE4B = {
 			isa = PBXGroup;
 			children = (
+				4F5F9F652AF15E940001FE4B /* Year.swift */,
 				4F5F9F392AF15E380001FE4B /* Leap Year TDD */,
 				4F5F9F4A2AF15E3A0001FE4B /* Leap Year TDDTests */,
 				4F5F9F542AF15E3A0001FE4B /* Leap Year TDDUITests */,
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4F5F9F3D2AF15E380001FE4B /* ContentView.swift in Sources */,
+				4F5F9F662AF15E940001FE4B /* Year.swift in Sources */,
 				4F5F9F3B2AF15E380001FE4B /* Leap_Year_TDDApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
