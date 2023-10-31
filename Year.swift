@@ -11,7 +11,11 @@ class Year {
     let value: Int
     
     func isLeapYear() -> Bool {
-        ((value % 4) != 0) ? true : false
+        if value.isMultiple(of: 4) && value.isMultiple(of: 400){
+            return true
+        } else {
+            return false
+        }
     }
     
     init(value: Int){
